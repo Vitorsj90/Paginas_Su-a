@@ -29,7 +29,6 @@ function alternarVisibilidade(id) {
       alert(errorMessage);
     } else {
       alert('Feedback enviado com sucesso! Obrigado.');
-      // Aqui, você pode adicionar lógica para enviar o formulário, como uma integração com um back-end.
       document.getElementById('feedbackForm').reset();
     }
   }
